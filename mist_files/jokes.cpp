@@ -15,7 +15,7 @@
 
 int main(){
     srand(time(NULL));
-    std::string reactions[] = {"~/Mist/mist_bash_files/./haha.sh | lolcat", "~/Mist_1.4.0/mist_bash_files/./lmfao.sh | lolcat", "~/Mist_1.4.0/mist_bash_files/./lol.sh | lolcat",};
+    std::string reactions[] = {"~/Mist/mist_bash_files/./haha.sh | lolcat", "~/Mist/mist_bash_files/./lmfao.sh | lolcat", "~/Mist/mist_bash_files/./lol.sh | lolcat",};
     std::string jokes = "/home/xero/Mist/jokes/jokes.txt";
     std::string punchlines = "/home/xero/Mist/jokes/punchlines.txt";
     std::string lines_of_text1;
@@ -23,7 +23,7 @@ int main(){
     int i = 0;
     std::string jokes_array[SIZE];
     std::string punchlines_array[SIZE];
-    int count = 0;
+    int count;
 
 
 //-----------------------------------------------------------------------------
@@ -52,11 +52,11 @@ int main(){
     int random_ = rand() % 2;
 
     if (jokes[random] == jokes[2]){
-        std::cout << jokes_array[random] << std::endl;
+        std::cout << jokes_array[2] << std::endl;
         std::string response_that_does_nothing;
         std::cin >> response_that_does_nothing;
         sleep(5);
-        std::cout << punchlines_array[random] << std::endl;
+        std::cout << punchlines_array[2] << std::endl;
         system(reactions[random_].c_str());
         system("clear");
     }
