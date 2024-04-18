@@ -1,0 +1,3 @@
+"~/Mist/mist_bash_files/./haha.sh | lolcat"
+"~/Mist/mist_bash_files/./lmfao.sh | lolcat"
+"~/Mist/mist_bash_files/./lol.sh | lolcat"
