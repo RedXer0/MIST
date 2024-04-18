@@ -1,0 +1,2 @@
+mpv /home/xero/Mist_1.3.0/Mists_Music/Music/All_Star.mp3
+mpv /home/xero/Mist_1.3.0/Mists_Music/Music/NCS-Stay_With_Me.mp3
