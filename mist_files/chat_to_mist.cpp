@@ -22,7 +22,7 @@ int main(){
     std::cout << colors << ansi_colors << "m" << "Hey how are you?" << std::endl;
     std::cin >> your_input;
     if (your_input == "joke"){
-        system("~/Mist_1.4.0/Mists_Out_Files/./jokes.out | lolcat");
+        system("~/Mist/Mists_Out_Files/./jokes.out | lolcat");
         exit(0);
     }
     else{}
