@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include "mist_music_player.cpp"
-#include "/home/xero/Mist_1.4.0/mists_gimmicks/alphahex.cpp"
+#include "/home/xero/Mist/mists_gimmicks/alphahex.cpp"
 
 #define SIZE 10000
 
@@ -32,8 +32,8 @@ int main(){
 
 
     srand(time(NULL));
-    std::string chat = "/home/xero/Mist_1.4.0/mist_responses/mist_chat.txt";
-    std::string response = "/home/xero/Mist_1.4.0/mist_responses/mist_responses.txt";
+    std::string chat = "/home/xero/Mist/mist_responses/mist_chat.txt";
+    std::string response = "/home/xero/Mist/mist_responses/mist_responses.txt";
     std::string lines_of_text1;
     std::string lines_of_text2;
     int i = 0;
@@ -98,7 +98,7 @@ int main(){
             if (your_input == "yes" || your_input == "YES"){
                 std::cout << response_array[random_number] << std::endl;
                 sleep(3);
-                system("mpv Mist_1.4.0/mist_media/Video.mp4");
+                system("mpv Mist/mist_media/Video.mp4");
             }
             else{
                 printf("YOU SHOULD WATCH PANTHEON!!!!\n");
@@ -112,7 +112,7 @@ int main(){
             if (your_input == "yes"){
                 std::cout << response_array[random_number] << std::endl;
                 sleep(3);
-                system("mpv Mist_1.4.0/Mists_Music/Music/27_Kids.mp3");
+                system("Well you can't because it's copyrighted\n");
                 
             }
             else if (your_input != "yes"){

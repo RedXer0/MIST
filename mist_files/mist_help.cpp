@@ -11,7 +11,7 @@
 
 #define SIZE 90000
 int main(){
-std::string help = "Mist_1.4.0/help.txt";
+std::string help = "Mist/help.txt";
 std:: string line;
 int i = 0;
 int count;

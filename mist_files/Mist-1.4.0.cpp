@@ -22,9 +22,9 @@ int main(){
     std::string ansi = "\033[";
     system("clear");
     std::cout << ansi << color << m << "Please wait" << num << std::endl;
-    system("~/Mist_1.4.0/mist_bash_files/./installing.sh | lolcat");
+    system("~/Mist/mist_bash_files/./installing.sh | lolcat");
     system("clear");
-    system("~/Mist_1.4.0/mist_bash_files/./bar.sh | lolcat");
+    system("~/Mist/mist_bash_files/./bar.sh | lolcat");
     installation();
     system("clear");
     system("echo Mist 1.4.0 has been installed succesfully | lolcat -a -d 50");

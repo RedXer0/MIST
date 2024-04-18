@@ -2,7 +2,7 @@
 
 void add_music();
 
-int main(){
+int music(){
     add_music();
     return 0;
 }
@@ -16,8 +16,8 @@ void add_music(){
     std::string adding_song;
     FILE *add;
     FILE *add_pic;
-    add = fopen("/home/xero/Mist_1.4.0/Mists_Music/music_playlist.txt", "a+");
-    add_pic = fopen("/home/xero/Mist_1.4.0/mist_media/mists_music_pics.txt", "a+");
+    add = fopen("/home/xero/Mist/Mists_Music/music_playlist.txt", "a+");
+    add_pic = fopen("/home/xero/Mist/mist_media/mists_music_pics.txt", "a+");
 
     if (add == nullptr){
         std::cout << "Could not open file" << std::endl;

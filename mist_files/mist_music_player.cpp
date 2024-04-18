@@ -19,7 +19,7 @@ int music(){
     char your_input;
     std::cin >> your_input;
     if (your_input == 'y' || your_input == 'Y') {
-        system("~/Mist_1.4.0/Mists_Out_Files/./add_music.out");
+        system("~/Mist/Mists_Out_Files/./add_music.out");
     }
     else{
     }
@@ -30,8 +30,8 @@ int music(){
 void Mists_Playlist(){
     int ansi_colors = 34;
     std::string colors = "\033[";
-    std::string Mists_Music_Playlist = "/home/xero/Mist_1.4.0/Mists_Music/music_playlist.txt";
-    std::string Playlist_Pics = "/home/xero/Mist_1.4.0/mist_media/mists_music_pics.txt";
+    std::string Mists_Music_Playlist = "/home/xero/Mist/Mists_Music/music_playlist.txt";
+    std::string Playlist_Pics = "/home/xero/Mist/mist_media/mists_music_pics.txt";
     std::cout << colors << ansi_colors << "m" << "Mists Music Player" << std::endl;
     sleep(1);
     std::cout << colors << ansi_colors << "m" << "All Music is non copyrighted music in the Mists_Music[Music] folder" << std::endl;

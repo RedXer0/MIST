@@ -15,9 +15,9 @@
 
 int main(){
     srand(time(NULL));
-    std::string reactions[] = {"~/Mist_1.4.0/mist_bash_files/./haha.sh | lolcat", "~/Mist_1.4.0/mist_bash_files/./lmfao.sh | lolcat", "~/Mist_1.4.0/mist_bash_files/./lol.sh | lolcat",};
-    std::string jokes = "/home/xero/Mist_1.4.0/jokes/jokes.txt";
-    std::string punchlines = "/home/xero/Mist_1.4.0/jokes/punchlines.txt";
+    std::string reactions[] = {"~/Mist/mist_bash_files/./haha.sh | lolcat", "~/Mist_1.4.0/mist_bash_files/./lmfao.sh | lolcat", "~/Mist_1.4.0/mist_bash_files/./lol.sh | lolcat",};
+    std::string jokes = "/home/xero/Mist/jokes/jokes.txt";
+    std::string punchlines = "/home/xero/Mist/jokes/punchlines.txt";
     std::string lines_of_text1;
     std::string lines_of_text2;
     int i = 0;

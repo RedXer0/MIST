@@ -7,7 +7,7 @@
 #define SIZE 100
 
 int installation(){
-    std::string alias_commands = "/home/xero/Mist_1.4.0/mists_commands/mist_aliases.txt";
+    std::string alias_commands = "/home/xero/Mist/mists_commands/mist_aliases.txt";
     std::string lines_of_commands;
     std::string alias_commands_array[SIZE];
     int x = 0;
