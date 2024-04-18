@@ -1,0 +1,2 @@
+tiv -w 25 -h 25 Mist_1.3.0/mist_media/ncs1.jpg
+tiv -w 25 -h 25 Mist_1.3.0/mist_media/ncs2.jpg
