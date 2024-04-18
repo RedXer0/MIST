@@ -1,2 +1,2 @@
-mpv ~/Mist_1.4.0/Mists_Music/Music/NCS-Stay_With_Me.mp3
-mpv ~/Mist_1.4.0/Mists_Music/Music/NCS_Closer.mp3
+mpv ~/Mist/Mists_Music/Music/NCS-Stay_With_Me.mp3
+mpv ~/Mist/Mists_Music/Music/NCS_Closer.mp3

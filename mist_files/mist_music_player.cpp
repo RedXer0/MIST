@@ -14,7 +14,7 @@
 #define SIZE 90000
 
 void Mists_Playlist();
-int music(){
+int main(){
     printf("Wanna add your own music? (y/n)\n");
     char your_input;
     std::cin >> your_input;
